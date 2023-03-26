@@ -29,11 +29,9 @@ img {
 }
 
 .subtitulo {
-  font-size: 8rem;
+  font-size: 5rem;
   line-height: 1;
   text-transform: uppercase;
-  word-break: break-all;
-  max-width: 4ch;
 }
 
 @media (max-width: 800px) {
@@ -152,7 +150,7 @@ img {
 
 /* EXPERIENCIA */
 
-.experiencia {
+.projetos {
   max-width: 1200px;
   padding: 40px 20px;
   margin: 0 auto;
@@ -161,11 +159,11 @@ img {
   gap: 100px;
 }
 
-.experiencia .subtitulo {
+.projetos .subtitulo {
   color: #e0e0e0;
 }
 
-.experiencia-texto {
+.projetos-texto {
   font-size: 1.5rem;
   line-height: 1.33;
   max-width: 40ch;
@@ -173,7 +171,7 @@ img {
   color: #525252;
 }
 
-.experiencia-texto strong {
+.projetos-texto strong {
   color: #141414;
 }
 
@@ -237,16 +235,16 @@ img {
 }
 
 @media (max-width: 800px) {
-  .experiencia {
+  .projetos {
     grid-template-columns: 1fr;
     gap: 40px;
   }
 
-  .experiencia .subtitulo {
+  .projetos .subtitulo {
     color: #141414;
   }
 
-  .experiencia-texto {
+  .projetos-texto {
     font-size: 1.25rem;
   }
 
